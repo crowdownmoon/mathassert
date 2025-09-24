@@ -1,0 +1,47 @@
+{
+  "name": "mathassert",
+  "version": "1.0.0",
+  "description": "为小学生和初中生设计的数学重难点知识记忆H5平台，通过AI辅助学习和科学的记忆算法，帮助学生更好地掌握数学知识",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "echo \"Build completed successfully\"",
+    "start": "node index.js",
+    "dev": "node index.js",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "quality-check": "./scripts/quality-check.sh",
+    "setup-hooks": "./install-hooks.sh",
+    "setup-mcp": "./setup-mcp.sh"
+  },
+  "keywords": [
+    "mathassert",
+    "math-education",
+    "ai-learning",
+    "h5-platform",
+    "memory-algorithm",
+    "vibe-coding",
+    "claude-code"
+  ],
+  "author": "Vibe Coding Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crowdownmoon/mathassert.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server-postgres": "^0.6.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
+}
